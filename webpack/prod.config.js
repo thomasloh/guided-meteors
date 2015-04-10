@@ -19,7 +19,7 @@ module.exports = {
     filename           : 'client.js',
     chunkFileName      : '[id].[chunk].[hash].js',
     namedChunkFilename : '[name].[hash].js',
-    publicPath         : '/curate/'
+    publicPath         : '/'
   },
 
   module: {

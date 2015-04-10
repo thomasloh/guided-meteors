@@ -74,9 +74,6 @@ module.exports = {
   },
 
   plugins: [
-    new webpack.PrefetchPlugin("react/addons"),
-    new webpack.PrefetchPlugin("react/lib/ReactComponentBrowserEnvironment"),
-    new webpack.PrefetchPlugin("bluebird"),
     new webpack.optimize.CommonsChunkPlugin('common.js')
   ]
 

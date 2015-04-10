@@ -42,7 +42,8 @@ module.exports = {
     loaders: _.union(common.loaders, [
       {
         test: /\.jsx$|\.js$/,
-        loaders: ['react-hot', 'babel?experimental'],
+        // loaders: ['react-hot', 'babel?experimental'],
+        loaders: ['babel?experimental'],
         exclude: /node_modules|vendor/
       }
     ])
