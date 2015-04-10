@@ -1,3 +1,3 @@
-[Guided Meteors](thomasloh.github.io/guided-meteors/)
+[Guided Meteors](http://thomasloh.com/guided-meteors/)
 
 Inspired by Stripe Connect https://stripe.com/connect
